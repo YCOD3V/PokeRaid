@@ -2,9 +2,8 @@ name: Enviar Mensaje
 
 on:
   schedule:
-    # Programado para ejecutarse todos los domingos a las 12:00 PM (UTC)
-    # Nota: Ajusta la hora según la zona horaria UTC que prefieras (ver nota abajo).
-    - cron: '0 12 * * 0'
+    # Programado para ejecutarse todos los domingos a las 19:00 hora de Chile (23:00 UTC)
+    - cron: '0 23 * * 0'
 
 jobs:
   enviar-discord:
