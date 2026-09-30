@@ -2,8 +2,8 @@ name: Enviar Mensaje
 
 on:
   schedule:
-    # Programado para ejecutarse a las 19:50 hora de Chile (23:50 UTC en horario de invierno UTC-4)
-    - cron: '50 23 * * *'
+    # Programado para ejecutarse todos los domingos a las 18:30 hora de Chile (21:30 UTC)
+    - cron: '30 21 * * 0'
 
 jobs:
   enviar-discord:
