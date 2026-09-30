@@ -5,7 +5,7 @@ WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks
 
 data = {
     "content": (
-        "¡Hola a todos! @Entrenador **¡Es hora de prepararse para la raid de este domingo!**\n\n"
+        "¡Hola a todos! **¡Es hora de prepararse para la raid de este domingo!**\n\n"
         "Asegúrense de revisar tu rotación y estar listo con tiempo.\n\n"
         "⏰ **Horarios de convocatoria:**\n"
         "**Chile:** 21:00 hrs\n"
